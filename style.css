@@ -197,6 +197,43 @@ main {
   padding-top: 5px;
 }
 
+/* 5th part sponsor-styles */
+.sponsor {
+  text-align: center;
+}
+.sponsor-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 60px;
+
+  color: #131313;
+}
+
+.sponsor-p {
+  margin-left: 400px;
+  /* text-align: center; */
+  color: #727272;
+  font-size: 11px;
+  width: 400px;
+}
+
+.sponsor-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+.sponsor-card-container .card {
+  /* border-radius: 8px; */
+  /* border: 1px solid coral; */
+  /* text-align: center; */
+  /* padding: 10px 70px; */
+  margin-top: 25px;
+  margin-left: 5px;
+}
+.sponsor-card-container img {
+  width: 100px;
+}
+
 /* responsive header */
 /* mobile */
 @media screen and (max-width: 667px) {
@@ -249,6 +286,18 @@ main {
     width: 200px;
     /* padding: 10px 10px; */
   }
+
+  /* 5th part Sponsor*/
+  .sponsor-p {
+    margin-left: 8px;
+    /* text-align: center; */
+    color: #727272;
+    font-size: 11px;
+    width: 350px;
+  }
+  .sponsor-card-container img {
+    width: 50px;
+  }
 }
 
 /* medium */
@@ -293,5 +342,15 @@ main {
     margin-left: 200px;
     padding: 10px 10px;
     width: 350px;
+  }
+
+  /* 5th part sponsor */
+
+  .sponsor-p {
+    margin-left: 160px;
+    /* text-align: center; */
+    color: #727272;
+    font-size: 18px;
+    width: 500px;
   }
 }
