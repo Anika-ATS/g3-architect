@@ -274,7 +274,7 @@ main {
 }
 
 .sponsor-p {
-  margin-left: 400px;
+  margin-left: 500px;
   /* text-align: center; */
   color: #727272;
   font-size: 11px;
@@ -295,6 +295,24 @@ main {
 }
 .sponsor-card-container img {
   width: 100px;
+}
+
+/* footer  */
+
+.footer-container {
+  /* position: absolute; */
+  width: 1230px;
+  height: 60px;
+  padding: 8px;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 70px;
+  text-align: center;
+  font-size: 13px;
+  color: #727272;
+
+  background-color: blanchedalmond;
 }
 
 /* DO WATCH RESPONSIVE HERE */
@@ -419,6 +437,22 @@ main {
   .sponsor-card-container img {
     width: 50px;
   }
+
+  /* footer */
+  .footer-container {
+    width: 340px;
+    height: 60px;
+    padding: 6px;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 10px;
+    color: #727272;
+
+    background-color: blanchedalmond;
+  }
 }
 
 /* medium */
@@ -508,5 +542,21 @@ main {
     color: #727272;
     font-size: 18px;
     width: 500px;
+  }
+
+  /* footer */
+  .footer-container {
+    width: 790px;
+    height: 60px;
+    padding: 8;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #727272;
+
+    background-color: blanchedalmond;
   }
 }
